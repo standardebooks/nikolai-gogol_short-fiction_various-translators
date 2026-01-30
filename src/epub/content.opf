@@ -49,6 +49,7 @@
 		<meta property="se:is-a-collection">true</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="se:title-in-collection" refines="#collection-1">The Mantle</meta>
 		<dc:description id="description">A collection of Gogol’s translated short stories and novellas ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol"&gt;Nikolai Gogol&lt;/a&gt; spent most of his literary career writing short stories, drawing inspiration from his childhood in Ukraine and his adult life in &lt;abbr&gt;St.&lt;/abbr&gt; Petersburg. His stories are filled with larger than life yet relatable characters and perfectly described locations, and span many genres from historical epics to early horror and surrealism.&lt;/p&gt;
