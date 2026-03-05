@@ -77,6 +77,7 @@
 		<dc:creator id="author">Nikolai Gogol</dc:creator>
 		<meta property="file-as" refines="#author">Gogol, Nikolai</meta>
 		<meta property="se:name.person.full-name" refines="#author">Nikolai Vasilievich Gogol</meta>
+		<meta property="alternate-script" refines="#author">Николай Гоголь</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Nikolai_Gogol</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056736</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
