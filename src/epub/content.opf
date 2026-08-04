@@ -53,7 +53,7 @@
 		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Mantle</meta>
-		<dc:abstract>A collection of Gogol’s translated short stories and novellas ordered by date of publication.</dc:abstract>
+		<meta property="schema:abstract">A collection of Gogol’s translated short stories and novellas ordered by date of publication.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/nikolai-gogol"&gt;Nikolai Gogol&lt;/a&gt; spent most of his literary career writing short stories, drawing inspiration from his childhood in Ukraine and his adult life in &lt;abbr&gt;St.&lt;/abbr&gt; Petersburg. His stories are filled with larger than life yet relatable characters and perfectly described locations, and span many genres from historical epics to early horror and surrealism.&lt;/p&gt;
 			&lt;p&gt;His influence on Russian literature cannot be understated: &lt;a href="https://standardebooks.org/ebooks/fyodor-dostoevsky"&gt;Fyodor Dostoevsky&lt;/a&gt; is quoted as saying “We all come out from Gogol’s ‘Overcoat,’ ” (presented here as “The Mantle”) and mentioned him by name in &lt;a href="https://standardebooks.org/ebooks/fyodor-dostoevsky/crime-and-punishment/constance-garnett"&gt;&lt;i&gt;Crime and Punishment&lt;/i&gt;&lt;/a&gt;; Mikhail Bulgakov stated that “no-one can compare with him,” and Vladimir Nabokov wrote a full biography. Many of the stories in this collection have been adapted for stage and film, including “The Nose” as an opera by Dmitri Shostakovich.&lt;/p&gt;
