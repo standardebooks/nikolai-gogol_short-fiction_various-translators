@@ -50,7 +50,7 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Mantle</meta>
 		<meta property="schema:abstract">A collection of Gogol’s translated short stories and novellas ordered by date of publication.</meta>
@@ -99,8 +99,7 @@
 		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-3">Vizetelly and Company</dc:contributor>
 		<meta property="file-as" refines="#translator-3">Vizetelly and Company</meta>
-		<link href="https://id.loc.gov/authorities/names/n50061643.html" refines="#translator-3" rel="schema:sameAs"/>
-		<link href="https://en.wikipedia.org/wiki/Henry_Vizetelly" refines="#translator-3" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr00000798.html" refines="#translator-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
 		<dc:contributor id="translator-4">George Tolstoy</dc:contributor>
@@ -109,7 +108,8 @@
 		<meta property="role" refines="#translator-4" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Ilya Repin</dc:contributor>
 		<meta property="file-as" refines="#artist">Repin, Ilya</meta>
-		<meta property="alternate-script" refines="#artist">Илья́ Ефи́мович Ре́пин</meta>
+		<meta property="schema:alternateName" refines="#artist">Ilya Yefimovich Repin</meta>
+		<meta property="alternate-script" refines="#artist">Илья Ефимович Репин</meta>
 		<link href="https://en.wikipedia.org/wiki/Ilya_Repin" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79075231.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -124,7 +124,7 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<link href="http://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
